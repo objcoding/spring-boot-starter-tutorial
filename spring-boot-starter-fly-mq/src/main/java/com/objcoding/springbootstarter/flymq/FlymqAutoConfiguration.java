@@ -1,4 +1,4 @@
-package com.objcoding.springbootstarter;
+package com.objcoding.springbootstarter.flymq;
 
 import com.objcoding.flymq.utils.JedisManager;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

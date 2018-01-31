@@ -5,15 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.objcoding</groupId>
-    <artifactId>spring-boot-starter-fly-mq</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>spring-boot-starters</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring-boot-starter-fly-mq</module>
+    </modules>
     <dependencies>
-        <dependency>
-            <groupId>com.objcoding</groupId>
-            <artifactId>fly-mq</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
@@ -42,7 +40,7 @@
 
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>spring-boot-starter-fly-mq/src/main/resources</directory>
                 <includes>
                     <include>**.*</include>
                     <include>**</include>
