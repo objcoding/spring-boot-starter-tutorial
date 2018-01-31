@@ -1,4 +1,4 @@
-package com.objcoding.springbootstarter.flymq;
+package com.objcoding.springbootstarters.flymq;
 
 import com.objcoding.flymq.utils.JedisManager;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 public class FlymqAutoConfiguration {
 
     public FlymqAutoConfiguration(FlymqProperties flymqProperties) {
-//        System.out.println("====== 初始化连接池 =======");
+        System.out.println("====== 初始化连接池 =======");
         JedisManager.initPool(flymqProperties);
     }
 }
