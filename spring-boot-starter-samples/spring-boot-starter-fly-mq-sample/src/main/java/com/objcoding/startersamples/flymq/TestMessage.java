@@ -1,4 +1,4 @@
-package com.objcoding.springbootstartersamples.flymq;
+package com.objcoding.startersamples.flymq;
 
 import com.objcoding.flymq.message.Message;
 

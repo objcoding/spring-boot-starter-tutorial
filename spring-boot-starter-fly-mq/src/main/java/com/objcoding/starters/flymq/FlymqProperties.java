@@ -1,4 +1,4 @@
-package com.objcoding.springbootstarters.flymq;
+package com.objcoding.starters.flymq;
 
 import com.objcoding.flymq.config.RedisConfig;
 import org.springframework.boot.context.properties.ConfigurationProperties;
