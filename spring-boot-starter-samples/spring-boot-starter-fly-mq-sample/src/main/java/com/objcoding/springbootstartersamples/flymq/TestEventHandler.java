@@ -1,4 +1,4 @@
-package springbootstartersamples.flymq;
+package com.objcoding.springbootstartersamples.flymq;
 
 import com.objcoding.flymq.core.HandlerTask;
 
