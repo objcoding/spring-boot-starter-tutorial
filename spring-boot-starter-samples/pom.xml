@@ -2,23 +2,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-boot-starters</artifactId>
+        <groupId>com.objcoding</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.objcoding</groupId>
-    <artifactId>spring-boot-starters</artifactId>
     <packaging>pom</packaging>
+    <artifactId>spring-boot-starter-samples</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring-boot-starter-fly-mq</module>
-        <module>spring-boot-starter-samples</module>
+        <module>spring-boot-starter-fly-mq-sample</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-autoconfigure</artifactId>
-                <version>1.5.9.RELEASE</version>
+                <groupId>com.objcoding</groupId>
+                <artifactId>spring-boot-starter-fly-mq</artifactId>
+                <version>1.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
